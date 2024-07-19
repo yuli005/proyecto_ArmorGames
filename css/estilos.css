@@ -1,0 +1,415 @@
+:root { 
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #37517e; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #47b2e4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
+
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+:root {
+  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-hover-color: #47b2e4; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #47b2e4; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+.light-background {
+  --background-color: #f5f6f8;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #37517e;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #4668a2;
+  --contrast-color: #ffffff;
+}
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+
+/* Estilo para el contenedor de formulario */
+form {
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario */
+  padding: 20px; /* Espaciado interno */
+  
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+  border-radius: 10px; /* Borde redondeado */
+  border: 1px solid #ced4da; /* Borde */
+}
+
+/* Estilo para las etiquetas de los campos de entrada */
+.form-label {
+  color: #333; /* Color del texto */
+}
+
+/* Estilo para el botón de enviar */
+.btn-primary {
+  background-color: #007bff; /* Color de fondo */
+  border-color: #007bff; /* Color del borde */
+  color: #fff; /* Color del texto */
+  border-radius: 10px; /* Borde redondeado */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón */
+  border-color: #0056b3; /* Cambio de color del borde al pasar el ratón */
+}
+
+/* Estilo para los enlaces dentro del texto del formulario */
+a {
+  color: #007bff; /* Color del enlace */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilo para los botones de registro */
+.btn-secondary {
+  margin: 5px; /* Margen entre botones */
+}
+
+/* Estilo para los íconos de los botones de registro */
+.btn-floating i {
+  font-size: 18px; /* Tamaño del ícono */
+}
+
+/* Estilos para el carousel */
+    #carouselExampleInterval {
+      max-width: auto; /* Ancho máximo del carousel */
+      margin: 0 auto; /* Centra el carousel horizontalmente */
+    }
+
+    .carousel-inner .carousel-item img {
+      max-height: 637px; /* Altura máxima de las imágenes del carousel */
+      object-fit: cover; /* Ajusta el tamaño de las imágenes sin deformarlas */
+    }
+  .fancy-heading small.text-muted {
+    color: #6c757d; /* Color de texto secundario */
+  }
+   /* Default height for small devices */
+   #intro-example {
+    height: 400px;
+  }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
+  }
+
+  /* Estilo para el título de la tarjeta */
+.card-title {
+  color: #333; /* Color del texto */
+  font-size: 1.5rem; /* Tamaño de fuente */
+  margin-bottom: 1rem; /* Espacio inferior */
+}
+
+/* Estilo para el texto de la tarjeta */
+.card-text {
+  color: #666; /* Color del texto */
+  font-size: 1rem; /* Tamaño de fuente */
+}
+.card-body {
+  max-width: 100%; /* Limitar el ancho máximo */
+  padding: 1rem; 
+}
+
+
+
+
+/* Estilo para el botón */
+.btn-primary {
+  background-color: #007bff; /* Color de fondo */
+  border-color: #007bff; /* Color del borde */
+  color: #fff; /* Color del texto */
+  font-size: 1rem; /* Tamaño de fuente */
+  padding: 0.5rem 1rem; /* Relleno */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón */
+  border-color: #0056b3; /* Cambio de color del borde al pasar el ratón */
+}
+.titulo_contacto{
+  text-align: center;
+}
+.formulario{
+  background-color: #F6F5F2;
+}
+
+.primero{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.parrafos{
+ width: 70%;
+ margin: auto;
+ text-align: justify;
+ margin-top: 50px;
+ margin-bottom: 40px;
+}
+.parrafos1{
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer{
+  /* position: fixed; */
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.team .team-member {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 5px;
+  transition: 0.5s;
+  padding: 30px;
+  height: 100%;
+}
+
+@media (max-width: 468px) {
+  .team .team-member {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+.team .team-member .pic {
+  overflow: hidden;
+  width: 150px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.team .team-member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team .team-member .member-info {
+  padding-left: 30px;
+}
+
+@media (max-width: 468px) {
+  .team .team-member .member-info {
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+}
+
+.team .team-member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.team .team-member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .team-member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: color-mix(in srgb, var(--default-color), transparent 85%);
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 468px) {
+  .team .team-member span::after {
+    left: calc(50% - 25px);
+  }
+}
+
+.team .team-member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team .team-member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+@media (max-width: 468px) {
+  .team .team-member .social {
+    justify-content: center;
+  }
+}
+
+.team .team-member .social a {
+  background: color-mix(in srgb, var(--default-color), transparent 94%);
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+}
+
+.team .team-member .social a i {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .team-member .social a:hover {
+  background: var(--accent-color);
+}
+
+.team .team-member .social a:hover i {
+  color: var(--contrast-color);
+}
+
+.team .team-member .social a+a {
+  margin-left: 8px;
+}
+
+/*--------------------------------------------------------------
+# final team section
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .service-item {
+  background-color: var(--surface-color);
+  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  height: 100%;
+}
+
+.services .service-item .icon {
+  margin-bottom: 10px;
+}
+
+.services .service-item .icon i {
+  color: var(--accent-color);
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.services .service-item h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.services .service-item h4 a {
+  color: var(--heading-color);
+  transition: ease-in-out 0.3s;
+}
+
+.services .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .service-item:hover {
+  transform: translateY(-10px);
+}
+
+.services .service-item:hover h4 a {
+  color: var(--accent-color);
+}
+
+.titulo_h4{
+  margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+# final Services Section
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Inicio seccion consolas 
+--------------------------------------------------------------*/
+
+.productos_consolas{
+  padding: 20px;
+}
+
+.productos_xbox{
+  padding: 20px;
+}
+
+.productos_xbox .card{
+  margin: 10px;
+}
+
+.productos_xbox .img-fluid{
+    height: 200px;
+    width: 300px;
+    padding-left: 120px;
+}
+
+/*--------------------------------------------------------------
+# Fin seccion consolas 
+--------------------------------------------------------------*/
+
+#navbarExample01{
+  margin-left: 470px;
+}
+
+.nav-item{
+  margin-right: 50px;
+  font-size: 24px;
+  font-weight: 800;  
+}
+
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  z-index: 99999;
+  background-color: rgb(241, 238, 238);
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  transition: all 0.4s;
+  border: 1px solid gray;
+}
+
