@@ -36,7 +36,10 @@
 :root {
   scroll-behavior: smooth;
 }
-
+/* .nav ul li{
+  display: inline;
+  margin-right: 100px;
+} */
 
 /* Estilo para el contenedor de formulario */
 form {
@@ -391,9 +394,9 @@ a:hover {
 }
 
 .nav-item{
-  margin-right: 50px;
-  font-size: 24px;
-  font-weight: 800;  
+  /* margin-right: 50px; */
+  font-size: 18px;
+  font-weight: auto;  
 }
 
 
@@ -412,4 +415,15 @@ a:hover {
   transition: all 0.4s;
   border: 1px solid gray;
 }
+.navbar-logo{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+}
+.navbar-logo img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
