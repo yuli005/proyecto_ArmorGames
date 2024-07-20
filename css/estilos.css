@@ -99,7 +99,7 @@ a:hover {
     }
 
     .carousel-inner .carousel-item img {
-      max-height: 637px; /* Altura máxima de las imágenes del carousel */
+      max-height: 580px; /* Altura máxima de las imágenes del carousel */
       object-fit: cover; /* Ajusta el tamaño de las imágenes sin deformarlas */
     }
   .fancy-heading small.text-muted {
@@ -389,24 +389,13 @@ a:hover {
 # Fin seccion consolas 
 --------------------------------------------------------------*/
 
-#navbarExample01{
-  margin-left: 470px;
-}
-
-.nav-item{
-  /* margin-right: 50px; */
-  font-size: 18px;
-  font-weight: auto;  
-}
-
-
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
   right: 20px;
-  bottom: 10px;
+  bottom: 20px;
   z-index: 99999;
   background-color: rgb(241, 238, 238);
   width: 44px;
@@ -425,5 +414,31 @@ a:hover {
   width: 100%;
   height: auto;
 }
+
+.btn_login .nav_item{
+  border: 2px solid gray; 
+  border-radius: 10px; 
+  margin-left:100px;
+}
+
+/*--------------------------------------------------------------
+# Fin Scroll Top Button
+--------------------------------------------------------------*/
+#nav_login{
+  color: red;
+  /*border: 2px solid blue;*/
+  list-style: none;
+  display:flex;
+  padding-top: 35px;  
+  font-size: 20px;
+}
+
+#nav_login li a{
+  color: gray;
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;  
+}
+
 
 
