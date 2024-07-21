@@ -459,7 +459,8 @@ a:hover {
   
 }
 
-.accordion{
+.accordion{  
+  width: 100%;  
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -467,10 +468,6 @@ a:hover {
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
-.div_blog_consolas{
-  padding: 0;
-  margin: 0;
-}
 
 .img_gaming{
   margin-left: 100px;
