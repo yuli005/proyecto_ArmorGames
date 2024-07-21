@@ -440,5 +440,66 @@ a:hover {
   padding: 5px;  
 }
 
+.titulo_blog{
+  display: flex;
+  justify-content: center;
+}
 
+.titulo_blog h2{
+  text-transform: uppercase;
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.acordeon_consolas{
+  padding: 70px;
+  width: 100%;  
+  display: flex;
+}
+
+.accordion{
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.accordion .accordion-item .accordion-header{
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.div_blog_consolas{
+  padding: 0;
+  margin: 0;
+}
+
+.img_gaming{
+  margin-left: 100px;
+  margin-right: 50px;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn_consolas{
+  display: flex;
+  justify-content: center;
+}
+
+.btn_consolas a{
+  background:#47b2e4;
+  color: white;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 55px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+}
+
+.btn_consolas a:hover{
+  background: #3b71ca;
+}
 
