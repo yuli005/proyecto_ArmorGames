@@ -36,11 +36,47 @@
 :root {
   scroll-behavior: smooth;
 }
+
+.navbar  {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  position: fixed;
+}
+/* .navbar ul li a{
+  color:  #fff;
+} */
+/* .dropdown a{
+  background-color: #10002bdd;
+} */
+
+/* ul  li:hover a {
+  color: green;
+} */
+
+/* left 50% moverá el elemento exactamente en el centro del contenedor principal al que pertenece este elemento. 
+PERO moverá el elemento exactamente al 50% de su ancho, ¡y NO en el centro de todo el elemento contenedor! translateX(50%) */
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+/* .navbar izquierda{
+  float: left;
+}
+.navbar-logo{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+} */
+/* .navbar-logo img{
+  margin-right: auto;
+  margin-bottom: 16px;
+
+} */
 /* .nav ul li{
   display: inline;
   margin-right: 100px;
 } */
-
 /* Estilo para el contenedor de formulario */
 form {
   max-width: 400px; /* Ancho máximo del formulario */
@@ -415,15 +451,6 @@ a:hover {
   transition: all 0.4s;
   border: 1px solid gray;
 }
-.navbar-logo{
-  display: inline-block;
-  vertical-align: middle;
-  width: 100px;
-}
-.navbar-logo img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 
 

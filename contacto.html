@@ -1,237 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/pexels-stasknop-1298601.jpg" type="image/png" />
-    <link rel="stylesheet" href="css/estilos.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
-      rel="stylesheet"
-    />
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/pexels-stasknop-1298601.jpg" type="image/png" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <title>Armor Games</title>
-  </head>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <body>
-    <header>
+  <title>Armor Games</title>
+</head>
 
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg bg-body">
+<body>
+  <header>
 
-        <div class="container-fluid">
-         <button
-           data-mdb-collapse-init
-           class="navbar-toggler"
-           type="button"
-           data-mdb-target="#navbarExample01"
-           aria-controls="navbarExample01"
-           aria-expanded="false"
-           aria-label="Toggle navigation"
-         >
-           <i class="fas fa-bars"></i>
-         </button>
-
-         <div class="collapse navbar-collapse" id="navbarExample01">
-           <ul class="navbar-nav me-auto mb-2 mb-lg-2">
-             <li class="nav-item active">
-               <a class="nav-link" aria-current="page" href="index.html"
-                 >Inicio</a
-               >
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="./nosotros.html">Nosotros</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="./consolas.html">Consolas</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="./contacto.html">Contactanos</a>
-             </li>
-           </ul>
-         </div>
-       </div>
-     </nav>
-     <!-- Navbar -->
-
-
-      <!-- Background image -->
-      <div
-        class="p-5 text-center bg-image"
-        style="
+  </header>
+  <!-- Background image -->
+  <div class="p-5 text-center bg-image" style="
           background-image: url('https://img.freepik.com/fotos-premium/hombre-mostrando-simbolos-contacto-medios-comunicacion-social-internet_220873-7990.jpg?w=740');
           height: 400px;
-        "
-      >
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white">
-              <h1 class="mb-3">BUSCAS MAS INFORMACION</h1>
-              <h4 class="mb-3">no dudes en ponerte en contacto con nosotros</h4>
-              <a
-                data-mdb-ripple-init
-                class="btn btn-outline-light btn-lg"
-                href="#!"
-                role="button"
-                >Contacta a un asesor</a
-              >
-            </div>
-          </div>
+        ">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">BUSCAS MAS INFORMACION</h1>
+          <h4 class="mb-3">no dudes en ponerte en contacto con nosotros</h4>
+          <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Contacta a un asesor</a>
         </div>
       </div>
-      <!-- final Background image -->
+    </div>
+  </div>
+  <!-- final Background image -->
 
-    </header>
 
-    <!-- Formulario -->
-    <section class="formulario">
-      <form style="width: 26rem">
-        <h2 class="titulo_contacto">Contáctanos</h2>
-        <br /><br />
-        <!-- Name input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <input type="text" id="form4Example1" class="form-control" />
-          <label class="form-label" for="form4Example1">Name</label>
-        </div>
 
-        <!-- Email input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <input type="email" id="form4Example2" class="form-control" />
-          <label class="form-label" for="form4Example2">Email address</label>
-        </div>
-
-        <!-- Message input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-          <label class="form-label" for="form4Example3">Message</label>
-        </div>
-
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input
-            class="form-check-input me-2"
-            type="checkbox"
-            value=""
-            id="form4Example4"
-            checked
-          />
-          <label class="form-check-label" for="form4Example4">
-            Send me a copy of this message
-          </label>
-        </div>
-
-        <!-- Submit button -->
-        <button
-          data-mdb-ripple-init
-          type="button"
-          class="btn btn-primary btn-block mb-4"
-        >
-          Enviar
-        </button>
-      </form>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-body-tertiary text-center">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Facebook -->
-          <a
-            data-mdb-ripple-init
-            class="btn text-white btn-floating m-1"
-            style="background-color: #3b5998"
-            href="#!"
-            role="button"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-
-          <!-- Twitter -->
-          <a
-            data-mdb-ripple-init
-            class="btn text-white btn-floating m-1"
-            style="background-color: #55acee"
-            href="#!"
-            role="button"
-            ><i class="fab fa-twitter"></i
-          ></a>
-
-          <!-- Instagram -->
-          <a
-            data-mdb-ripple-init
-            class="btn text-white btn-floating m-1"
-            style="background-color: #ac2bac"
-            href="#!"
-            role="button"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </section>
-        <!-- Section: Social media -->
+  <!-- Formulario -->
+  <section class="formulario">
+    <form style="width: 26rem">
+      <h2 class="titulo_contacto">Contáctanos</h2>
+      <br /><br />
+      <!-- Name input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="text" id="form4Example1" class="form-control" />
+        <label class="form-label" for="form4Example1">Name</label>
       </div>
-      <!-- Grid container -->
 
-      <!-- Copyright -->
-      <div
-        class="text-center p-3"
-        style="background-color: rgba(0, 0, 0, 0.05)"
-      >
-        © 2024 Copyright:
-        <a class="text-body" href="https://mdbootstrap.com/">Armor Games</a>
+      <!-- Email input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="email" id="form4Example2" class="form-control" />
+        <label class="form-label" for="form4Example2">Email address</label>
       </div>
-      <!-- Copyright -->
-    </footer>
 
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+      <!-- Message input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+        <label class="form-label" for="form4Example3">Message</label>
+      </div>
 
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
-    ></script>
-  </body>
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+        <label class="form-check-label" for="form4Example4">
+          Send me a copy of this message
+        </label>
+      </div>
+
+      <!-- Submit button -->
+      <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">
+        Enviar
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-body-tertiary text-center">
+   
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="fa-solid fa-arrow-up-from-bracket"></i></a>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
