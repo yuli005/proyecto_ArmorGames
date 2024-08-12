@@ -380,9 +380,7 @@ a:hover {
 }
 
 .productos_xbox .img-fluid{
-    height: 200px;
-    width: 300px;
-    padding-left: 120px;
+    width: 100%;
 }
 
 /*--------------------------------------------------------------

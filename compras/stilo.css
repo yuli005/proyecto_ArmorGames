@@ -47,7 +47,9 @@ header h1{
     transition: .3s;
 }
 .contenedor .contenedor-items .item .img-item{
-    width: 100%;
+    height: 100px;
+    width: 160px;
+    
 }
 .contenedor .contenedor-items .item:hover{
     box-shadow: 0 0 10px #666;
