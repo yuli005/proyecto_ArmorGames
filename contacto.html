@@ -93,53 +93,88 @@
 
     </header>
 
-    <!-- Formulario -->
-    <section class="formulario">
-      <form style="width: 26rem">
-        <h2 class="titulo_contacto">Contáctanos</h2>
-        <br /><br />
-        <!-- Name input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <input type="text" id="form4Example1" class="form-control" />
-          <label class="form-label" for="form4Example1">Nombre</label>
+  
+    <!-- Contact Section -->
+     <br>
+  <section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+    
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-5">
+
+          <div class="info-wrap">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="fa-duotone fa-solid fa-location-dot flex-shrink-0"></i>
+              <div>
+                <h3>Dirección</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-phone flex-shrink-0"></i>
+              <div>
+                <h3>Llamanos</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Nuestro correo electronico</h3>
+                <p>info.armorgames@yupimail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
 
-        <!-- Email input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <input type="email" id="form4Example2" class="form-control" />
-          <label class="form-label" for="form4Example2">Correo electronico</label>
-        </div>
+        <form style="max-width: 580px;">
+          <h2 class="titulo_contacto" style="text-align: center; font-size: 35px; font-weight: 600; color: black;" >CONTACTANOS</h2>
+          <br /><br />
+          <!-- Name input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Nombre</label>
+          </div>
+    
+          <!-- Email input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2">Correo electronico</label>
+          </div>
+    
+          <!-- Message input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Mensaje</label>
+          </div>
+    
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+            <label class="form-check-label" for="form4Example4">
+              Enviame una copia de este mensaje
+            </label>
+          </div>
+    
+          <!-- Submit button -->
+          <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">
+            Enviar
+          </button>
+        </form>
 
-        <!-- Message input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-          <label class="form-label" for="form4Example3">Mensaje</label>
-        </div>
+      </div>
 
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input
-            class="form-check-input me-2"
-            type="checkbox"
-            value=""
-            id="form4Example4"
-            checked
-          />
-          <label class="form-check-label" for="form4Example4">
-            Enviarme una copia de este mensaje
-          </label>
-        </div>
-
-        <!-- Submit button -->
-        <button
-          data-mdb-ripple-init
-          type="button"
-          class="btn btn-primary btn-block mb-4"
-        >
-          Enviar
-        </button>
-      </form>
-    </section>
+    </div>
+  </section><!-- /Contact Section -->
 
     <!-- Footer -->
     <footer class="bg-body-tertiary text-center">
