@@ -598,3 +598,8 @@ a:hover {
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
+
+.btn-registro{  
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+}
