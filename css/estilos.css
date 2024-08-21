@@ -611,7 +611,8 @@ a:hover {
 
 .carrusel{
     height: 100vh;
-  }
+    margin-top: 150px;
+}
 
 .carrusel-items {
   display: flex;
