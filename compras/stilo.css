@@ -43,7 +43,7 @@ header h1{
     height: 300px;
     margin: auto;
     /*border: 1px solid #666;*/
-    box-shadow: 10px 10px 20px rgba(9, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(9, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
@@ -54,7 +54,7 @@ header h1{
      margin-left: 25px;
 }
 .contenedor .contenedor-items .item:hover{
-    box-shadow: 0 0 10px #666;
+    box-shadow: 0 0 5px #666;
     scale: 1.05;
 }
 .contenedor .contenedor-items .item .titulo-item{
