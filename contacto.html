@@ -22,7 +22,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" style="height: 70px; width: 70px;"></a>
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" style="height: 90px; width: 100px; margin-left: 100px;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,13 +36,13 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                consolas
+                Consolas
               </a>
               <ul class="dropdown-menu" style="font-size: 20px; ">
-                <li><a class="dropdown-item" href="consolas_xbox.html">Xbox</a></li>
-                <li><a class="dropdown-item" href="consolas_playStation.html">Play Station</a></li>
-                <li><a class="dropdown-item" href="consolas_nintendoSwitch.html">Nintendo Switch</a></li>
-                <li><a class="dropdown-item" href="consolas_retro.html">Consolas retro</a></li>
+                <li><a class="dropdown-item" href="./compras/consolasxbox.html">Xbox</a></li>
+                <li><a class="dropdown-item" href="./compras/consolasplayStation.html">Play Station</a></li>
+                <li><a class="dropdown-item" href="./compras/consolasnitendoSwitch.html">Nintendo Switch</a></li>
+                <li><a class="dropdown-item" href="./compras/consolasretro.html">Consolas retro</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="consolas.html">Todas las consolas</a></li>
               </ul>
@@ -53,8 +53,8 @@
           
           <ul id="nav_login">          
             
-            <li><i class="fa-solid fa-user" style="color: gray; height: 50px;"></i><a href="./inicioSesion/login.html"></span>Iniciar sesion - </a></li>
-            <li></i><a href="./inicioSesion/signup.html"></span>Registrase</a></li>
+            <li><i class="fa-solid fa-user" style="color: gray; height: 50px;"></i><a href="./inicioSesion/login.html"></span>Iniciar sesion  </a></li>
+            <li></i><a href="./inicioSesion/signup.html" class="btn-registro"></span>Registrate</a></li>
             </ul>
           
         </div>
@@ -80,8 +80,9 @@
               <a 
                 data-mdb-ripple-init
                 class="btn btn-outline-light btn-lg"
-                href="#!"
+                href="https://web.whatsapp.com/"
                 role="button"
+                target="_blank"
                 >Contacta a un asesor</a
               >
             </div>
@@ -92,56 +93,96 @@
 
     </header>
 
-    <!-- Formulario -->
-    <section class="formulario">
-      <form style="width: 26rem">
-        <h2 class="titulo_contacto">Contáctanos</h2>
-        <br /><br />
-        <!-- Name input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <input type="text" id="form4Example1" class="form-control" />
-          <label class="form-label" for="form4Example1">Name</label>
+  
+    <!-- Contact Section -->
+     <br>
+  <section id="contact" class="contact section" style="margin-bottom: 25px;">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+    
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-5">
+
+          <div class="info-wrap">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="fa-duotone fa-solid fa-location-dot flex-shrink-0"></i>
+              <div>
+                <h3>Dirección</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-phone flex-shrink-0"></i>
+              <div>
+                <h3>Llamanos</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Nuestro correo electronico</h3>
+                <p>info.armorgames@yupimail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
 
-        <!-- Email input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <input type="email" id="form4Example2" class="form-control" />
-          <label class="form-label" for="form4Example2">Email address</label>
-        </div>
+        <form style="max-width: 580px;"  action="https://formspree.io/f/xnnaaeyr" method="POST" autocomplete="off">
+          <h2 class="titulo_contacto" style="text-align: center; font-size: 35px; font-weight: 600; color: black;" >CONTACTANOS</h2>
+          <br /><br />
+          <!-- Name input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" required />
+            <label class="form-label" for="form4Example1">Nombre</label>
+          </div>
+    
+          <!-- Email input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" required/>
+            <label class="form-label" for="form4Example2">Correo electronico</label>
+          </div>
+    
+          <!-- Message input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Mensaje</label>
+          </div>
+    
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked/>
+            <label class="form-check-label" for="form4Example4">
+              Enviame una copia de este mensaje
+            </label>
+          </div>  
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" required />
+            <label class="form-check-label" for="form4Example4">
+              Aceptar los <a href="Términos y Condiciones.pdf" target="_blank">Términos y Condiciones</a>
+            </label>
+          </div>  
+          <!-- Submit button -->
+          <input class="btn btn-primary btn-block mb-4" type="submit" value="Enviar">
 
-        <!-- Message input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-          <label class="form-label" for="form4Example3">Message</label>
-        </div>
+          
 
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input
-            class="form-check-input me-2"
-            type="checkbox"
-            value=""
-            id="form4Example4"
-            checked
-          />
-          <label class="form-check-label" for="form4Example4">
-            Send me a copy of this message
-          </label>
-        </div>
+        </form>
+      </div>
 
-        <!-- Submit button -->
-        <button
-          data-mdb-ripple-init
-          type="button"
-          class="btn btn-primary btn-block mb-4"
-        >
-          Enviar
-        </button>
-      </form>
-    </section>
+    </div>
+  </section><!-- /Contact Section -->
 
     <!-- Footer -->
-    <footer class="bg-body-tertiary text-center">
+    <footer class="bg-body-tertiary text-center" >
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -151,8 +192,9 @@
             data-mdb-ripple-init
             class="btn text-white btn-floating m-1"
             style="background-color: #3b5998"
-            href="#!"
+            href="https://www.facebook.com/"
             role="button"
+            target="_blank"
             ><i class="fab fa-facebook-f"></i
           ></a>
 
@@ -161,9 +203,10 @@
             data-mdb-ripple-init
             class="btn text-white btn-floating m-1"
             style="background-color: #55acee"
-            href="#!"
+            href="https://x.com/"
             role="button"
-            ><i class="fab fa-twitter"></i
+            target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
           ></a>
 
           <!-- Instagram -->
@@ -171,8 +214,9 @@
             data-mdb-ripple-init
             class="btn text-white btn-floating m-1"
             style="background-color: #ac2bac"
-            href="#!"
+            href="https://www.instagram.com/"
             role="button"
+            target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
         </section>

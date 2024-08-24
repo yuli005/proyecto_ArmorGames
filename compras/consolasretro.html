@@ -22,11 +22,76 @@
     <title>Armor Games - tienda | </title>
 </head>
 <body>
-    <header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="" style="height: 90px; width: 100px; margin-left: 100px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb- mb-lg-2" style="font-size: 20px; padding-left: 110px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Consolas
+            </a>
+            <ul class="dropdown-menu" style="font-size: 20px; ">
+              <li><a class="dropdown-item" href="consolasxbox.html">Xbox</a></li>
+              <li><a class="dropdown-item" href="consolasplayStation.html">Play Station</a></li>
+              <li><a class="dropdown-item" href="consolasnitendoSwitch.html">Nintendo Switch</a></li>
+              <li><a class="dropdown-item" href="consolasretro.html">Consolas retro</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../consolas.html">Todas las consolas</a></li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="../contacto.html">Contactanos</a>
+            </li>
+        </ul>
         
-        <h1>Armor Games - tienda</h1>
-    </header>
-    <section class="contenedor">
+        <ul id="nav_login">          
+          
+          <li><i class="fa-solid fa-user" style="color: gray; height: 50px;"></i><a href="../inicioSesion/login.html"></span>Iniciar sesion  </a></li>
+          <li></i><a href="../inicioSesion/signup.html" class="btn-registro"></span>Registrate</a></li>
+          </ul>
+        
+      </div>
+    </div>
+  </nav>  
+  <!-- Navbar -->  
+   <!-- Background image -->
+   <div
+   class="p-5 text-center bg-image"
+   style="
+     background-image: url('https://pbs.twimg.com/media/C2BeXTOWgAAEago?format=jpg&name=small');
+     height: 400px;
+   "
+ >
+   <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+     <div class="d-flex justify-content-center align-items-center h-100">
+       <div class="text-white">
+         <h1 class="mb-3" style="text-align: center; font-size: 47px; font-weight: 600;">NO PUEDEN FALTAR EL INICIO DE TODO</h1>
+         <h4 class="mb-3">Dale en comprar o contactanos</h4>
+         <a
+           data-mdb-ripple-init
+           class="btn btn-outline-light btn-lg"
+           href="https://web.whatsapp.com/"
+           role="button"
+           target="_blank"
+           >Contacta a un asesor</a
+         >
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- final Background image -->
+   
+    <section class="contenedor" style="margin-bottom: 25px;">
         <!-- Contenedor de elementos -->
         <div class="contenedor-items">
             
@@ -44,13 +109,13 @@
             </div>
 		<div class="item">
                 <span class="titulo-item">MNINTENDO CLASSIC FAMILY</span>
-                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_640456-MCO70221146488_062023-F.webp" alt="" class="img-item">
+                <img style="padding-bottom: 10px; padding-top: 5px;" src="https://http2.mlstatic.com/D_NQ_NP_2X_640456-MCO70221146488_062023-F.webp" alt="" class="img-item">
                 <span class="precio-item">$2.500.000</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
 		<div class="item">
                 <span class="titulo-item">SEGA</span>
-                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_840636-MLA45732923831_042021-F.webp" alt="" class="img-item">
+                <img style="padding-bottom: 15px; padding-top: 30px;" src="https://http2.mlstatic.com/D_NQ_NP_2X_840636-MLA45732923831_042021-F.webp" alt="" class="img-item">
                 <span class="precio-item">$800.000</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
@@ -131,8 +196,9 @@
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
               style="background-color: #3b5998"
-              href="#!"
+              href="https://www.facebook.com/"
               role="button"
+              target="_blank"
               ><i class="fab fa-facebook-f"></i
             ></a>
   
@@ -141,9 +207,10 @@
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
               style="background-color: #55acee"
-              href="#!"
+              href="https://x.com/"
               role="button"
-              ><i class="fab fa-twitter"></i
+              target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
             ></a>
   
             <!-- Instagram -->
@@ -151,8 +218,9 @@
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
               style="background-color: #ac2bac"
-              href="#!"
+              href="https://www.instagram.com/"
               role="button"
+              target="_blank"
               ><i class="fab fa-instagram"></i
             ></a>
           </section>
