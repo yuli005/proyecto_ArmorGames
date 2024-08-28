@@ -454,8 +454,10 @@ a:hover {
 .acordeon_consolas{
   padding: 50px;
   width: 100%;  
+  max-width: 1369px;
   display: flex;
-  margin-bottom: 100px;
+  margin: auto;
+
 }
 
 .accordion{  
@@ -469,8 +471,7 @@ a:hover {
 
 
 .img_gaming{
-  margin-left: 100px;
-  margin-right: 50px;
+  margin-left: 100px;  
   border-radius: 10px;
   width: 400px;
   height: 400px;  
@@ -509,6 +510,15 @@ a:hover {
 }
 
 @media (max-width: 575px) {
+
+  .acordeon_consolas{
+    display: none;
+  }
+
+  .titulo_blog h2{
+    display: none;
+  }
+
   .contact .info-wrap {
     padding: 20px;
   }
@@ -609,134 +619,4 @@ a:hover {
   background:rgb(242, 239, 229);
 }
 
-.carrusel{
-    height: 100vh;
-    margin-top: 150px;
-}
 
-.carrusel-items {
-  display: flex;
-  overflow-x:hidden;
-  overflow-y: hidden;
-  margin-right: 70px;
-  margin-left: 70px;
-  margin-bottom: 70px;
-}
-
-.carrusel-item {
-  min-width: 150px;
-  max-width: 300px;
-  height: 350px;
-  outline: 2px solid black;
-  cursor: pointer;
-}
-
-.carrusel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carrusel-item:hover{
-  transform: scale(1.5);  
-}
-
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.search{
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.search i{
-  font-size: 25px;
-  color: #111;
-}
-
-.search-txt{
-  display: flex;
-  align-items: center;
-}
-
-.search-txt i{
-  font-size: 40px;
-  color: #f8010a;
-}
-
-.search-txt h2{
-  color: #111;
-  font-size: 30px;
-  margin-left: 10px;
-}
-
-.movies{
-  padding: 50px 0 150px 0;
-}
-
-.movies h2{
-  font-size: 25px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.swiper{
-  width: 100%;
-}
-
-.swiper-slide{
-  background-position: center;
-  background-size: cover;
-  width: 250px;
-}
-
-.swiper-slide img{
-  display: block;
-  width: 100%;
-}
-
-.icons{
-  padding: 0 350px 50px 350px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.icons i{
-  font-size: 25px;
-  color: #111;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icons i:hover{
-  color: #f8010a;
-  background-color: #fefefe;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-@media(max-width:991px) {
-body{
-  min-height: 0vh;
-}
-
-.search{
-  padding: 30px 30px 0 30px;
-}
-
-.movies{
-  padding: 30px;
-}
-
-.icons{
-  padding: 30px;
-}
-}
