@@ -1,0 +1,15 @@
+{
+  "name": "proyecto_armorgames-master",
+  "version": "1.0.0",
+  "description": "Proyecto: https://yuli005.github.io/proyecto_ArmorGames/",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
